@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css'; // Importando os estilos
 import { LinhaLivro } from '../componentes/LinhaLivro'; // Importando o componente LinhaLivro
 import Livro from '../classes/modelo/Livro'; // Certifique-se de importar o tipo Livro adequado
-import { useRouter } from 'next/router';
+import { Router } from 'next/router';
 
 
 const LivroLista: React.FC = () => {
